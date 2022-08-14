@@ -1,0 +1,6 @@
+<svg style="fill:#222" width="8mm" height="8mm" version="1.1" viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg">
+	<g transform="translate(-101,-108)">
+		<path d="m107 111v5h-1z"/>
+		<path d="m101 108v8h2v-5l1 5h1v-3l-1-5h-2z"/>
+	</g>
+</svg>

@@ -1,0 +1,10 @@
+<svg width="22.2mm" height="22.2mm" version="1.1" viewBox="0 0 22.2 22.2" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<filter id="filter1834" x="-.24" y="-.24" width="1.48" height="1.48" style="color-interpolation-filters:sRGB">
+			<feGaussianBlur result="blur" stdDeviation="1.5 1.5"/>
+		</filter>
+	</defs>
+	<g transform="translate(-25.6,-85.1)">
+		<circle cx="36.7" cy="96.2" r="7.5" style="fill:#222;filter:url(#filter1834);opacity:.618;stroke-linecap:round;stroke-linejoin:round;stroke-width:.197"/>
+	</g>
+</svg>

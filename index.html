@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matthew Lorber</title>
+    <link rel="icon" media="(prefers-color-scheme:light)" href="./favicon-lite.svg" />
+    <link rel="icon" media="(prefers-color-scheme:dark)" href="./favicon-dark.svg" />
+    <link rel="stylesheet" href="./assets/css/fonts.css" />
+    <link rel="stylesheet" href="./assets/css/noise.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- <link rel="manifest" href="manifest.json"> -->
+</head>
+
+<body class="noisy">
+
+    <!-- NAVIGATION -->
+    <svg id="nav" viewBox="0 0 25 25" class="btn" role="button" tabindex="0" style="position:fixed;top:0;left:0;width:calc(min(5vw,5vh));height:calc(min(5vw,5vh));stroke:var(--c0);stroke-width:2;stroke-linecap:round">
+        <polyline points="12.5,5 12.5,20"/>
+        <polyline points="5,12.5 20,12.5"/>
+    </svg>
+    <!-- FULLSCREEN -->
+    <svg id="fs" viewBox="0 0 25 25" style="position:fixed;top:0;right:0;width:calc(min(5vw,5vh));height:calc(min(5vw,5vh));fill:none;stroke:var(--c0);stroke-width:2;stroke-linecap:round">
+        <polyline points="5,10, 5,5, 10,5"/>
+        <polyline points="15,5 20,5 20,10"/>
+        <polyline points="5,15 5,20 10,20"/>
+        <polyline points="15,20 20,20 20,15"/>
+    </svg>
+
+    <!-- MAIN -->
+    <main>
+
+        <article>
+            <!-- HOME -->
+            <section id="HOME">
+
+                <!-- NOSCRIPT BACKGROUND -->
+                <!-- <noscript class="flex column">
+                    <svg width="256px" height="256px" enable-background="new 0 0 512 512" viewBox="0 0 512 512"
+                        xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="26.002" y="26.001" width="460" height="460" fill="#22222233" />
+                        <path
+                            d="m276.33 384.76c0 44.767-26.286 65.2-64.586 65.2-34.601 0-54.623-17.865-64.892-39.529l35.218-21.255c6.777 12.013 12.938 22.177 27.826 22.177 14.169 0 23.207-5.544 23.207-27.208v-146.93h43.227v147.55z"
+                            fill="#323330" />
+                        <path
+                            d="m378.6 449.96c-40.147 0-66.124-19.099-78.754-44.151l35.219-20.332c9.241 15.095 21.356 26.286 42.611 26.286 17.866 0 29.364-8.932 29.364-21.355 0-14.787-11.704-20.021-31.52-28.75l-10.781-4.62c-31.214-13.246-51.853-29.983-51.853-65.2 0-32.447 24.745-57.09 63.248-57.09 27.518 0 47.232 9.549 61.402 34.603l-33.679 21.562c-7.392-13.246-15.401-18.481-27.825-18.481-12.63 0-20.639 8.01-20.639 18.481 0 12.938 8.009 18.176 26.594 26.285l10.78 4.621c36.759 15.71 57.397 31.832 57.397 67.974 2e-3 38.81-30.597 60.167-71.564 60.167z"
+                            fill="#323330" />
+                    </svg>
+                    <p>Much of the work in this website relies on <a
+                            href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a> for its functionality.</p>
+                    <p>You are seeing this message because JavaScript is currently disabled in your browser.</p>
+                    <p>Here are the <a href="https://www.enable-javascript.com/">instructions how to enable JavaScript
+                            in your web browser</a>.</p>
+                </noscript> -->
+                
+            </section>
+
+            <!-- PROJECTS -->
+            <section id="PROJECTS" style="background-color:#222">
+                <h2 style="color:white">JavaScript Algorithms</h2>
+                <div class="flex">
+                    <div class="project" tabindex="0">
+                        <img src="./public/assets/images/Boxy № 6606.png"/>
+                    </div>
+                </div>
+                
+                    <div style="color:white;font-size:.7rem;width:100vw;position:absolute;bottom:10%;left:0;padding:1rem">Based on mathematics, program runs and saves hundreds of variations. I choose ones I like and save to database.</div>
+                
+            </section>
+
+            <!--  -->
+            <section> 
+                <h2>People I've worked with have said some nice things...</h2>
+                <div>testimonial</div>
+                <div class="txt">testimonial</div>
+                <div>testimonial</div>
+                <svg id="scroll" width="30px" height="30px">
+                    <style>#scroll{position:relative;left:0}#scroll>polyline{fill:none;stroke:var(--c0);stroke-width:4;stroke-linecap:round;animation:bounce 1s linear infinite}@keyframes bounce {50%{transform:translateX(6px)}}</style>
+                    <polyline points="5,5 12.5,12.5 5,20"/>
+                </svg>
+            </section>
+
+            <!-- LANDING PAGE -->
+            <section id="landing" class="flex" style="padding:0">
+                <div class="left"></div>
+                <div class="right"></div>
+            </section>
+
+            <!-- CONTACT -->
+            <section id="CONTACT">
+                <!-- AVATAR -->
+                <svg id="avatar" viewBox="0 0 512 512"><g stroke-linecap="round" stroke-linejoin="round" stroke-width="2.31" transform="translate(2.85 -10.9)"><circle id="avatar_shirt" cx="256" cy="286" r="200" /><path id="avatar_bg" d="M256 83C144 83 53 174 53 286c.2 32 8.2 64 23.2 93 2-7 4.1-15 6.4-17 9.1-8 29.4-16 88.4-41h-1 1c-1-12 11-22 40-30v13c1 0 1-1 2-1l82-1c1-1 0 2 0 1l1-13c28 8 46 19 45 30 59 26 79 34 88 42 3 2 5 10 7 17 15-29 23-61 23-93 0-112-91-203-203-203z"/><path fill="#1a1a1a" fill-opacity=".808" d="M172 321c-1 29 29 36 49 58-30-15-55-23-69-49zM341 321c1 22-29 27-49 44 30-11 54-16 68-36z"/><rect width="9" height="66.5" x="-229" y="379" fill="#b3b3b3" fill-opacity=".808" rx="4.5" ry="4.76" transform="scale(-1 1)"/><rect width="9" height="60.9" x="-295" y="365" fill="#b3b3b3" fill-opacity=".808" rx="4.5" ry="4.35" transform="scale(-1 1)"/></g><path fill="#dcc5a1" d="M256 170c-22 0-45 14-45 42v103c12 14 29 22 45 22s33-8 45-22V212c0-28-23-42-45-42z"/><path fill="#dcc5a1" d="M259 43.31c-78 .8-95 61.7-98 114-4-3-7-5-11-4-8 2-11 15-9 29 4 8 14 29 23 21 2 16 5 26 7 29 5 10 23 29 41 44 57 27 10 3 42 19 7 4 63-28 44-13 20-11 40-26 46-35 3-3 8-13 13-28 10 9 25-9 27-15 7-14 5-27-3-31-4-1-9 0-13 4 6-56-1-125-93-133-6-.5-11-.6-16-.6z"/><path d="M257 43.01c-57 .5-91 35.1-96 114l5 33 6-10c-9-84 23-107 97-70 79-23.2 107 5 84 86l4 11 11-32c9-86.6-25-126-93-131-6-.7-13-1-18-.9z" class="avatar_hair"/><path fill="#fff" d="M226 237c3 13 15 23 32 25 12 0 29-8 37-18zm0 0c3 13 15 23 32 25 12 0 29-8 37-18z"/><path d="M316 221c-9-13-38 0-54-1h-1c-15-2-38-17-50-8-19 15-14 46 3 64 13 10 25 17 35 21 16 5 39-9 51-15 15-7 30-41 16-61zm-26 59c-29 13-9-10-31-11h-2c-19-2-8 22-33 5-27-18-19-58-5-58s23 9 42 12h1c20 1 32-7 45-5 14 2 13 45-17 57z" class="avatar_hair"/><ellipse cx="320" cy="153" class="avatar_eye" rx="9.67" ry="10.6" transform="rotate(5)"/><ellipse cx="238" cy="152" class="avatar_eye" rx="9.67" ry="10.6" transform="rotate(5)"/></svg>
+                <h2>Let's Connect!</h2>
+                <div class="txt">If you ever want to grab a coffee/tea or just want a quick chat, you can find me or send me a message here!</div>
+                <footer>Designed and developed with ❤️ Matt Lorber</footer>
+            </section>
+
+        </article>
+    </main>
+</body>
+<script src="./public/assets/js/interactions.js"></script>
+
+</html>
